@@ -1,0 +1,48 @@
+* {
+  background: url('space.jpg') fixed no-repeat ;
+}
+
+.titre {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'distant_galaxyregular', Impact , "Arial";
+  color: yellow;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  color: yellow;
+  font-family: 'distant_galaxyregular', Impact , "Arial";
+}
+
+img {
+  float: right;
+  border: 3px yellow solid;
+  border-radius: 10px;
+  box-shadow: -6px 6px 0px white;
+}
+
+p{
+  font-size: 1.3em;
+}
+
+li{
+  color: white;
+  font-size: 1.3em;
+}
+
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('fonts/DISTGRG_-webfont.eot');
+    src: url('fonts/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DISTGRG_-webfont.woff2') format('woff2'),
+         url('fonts/DISTGRG_-webfont.woff') format('woff'),
+         url('fonts/DISTGRG_-webfont.ttf') format('truetype'),
+         url('fonts/DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

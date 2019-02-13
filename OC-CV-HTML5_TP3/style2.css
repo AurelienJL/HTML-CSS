@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('fonts/DISTGRG_-webfont.eot');
+    src: url('fonts/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DISTGRG_-webfont.woff2') format('woff2'),
+         url('fonts/DISTGRG_-webfont.woff') format('woff'),
+         url('fonts/DISTGRG_-webfont.ttf') format('truetype'),
+         url('fonts/DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+*
+{
+  background: url('space.jpg') fixed no-repeat ;
+}*/
+
+
+#body_content
+{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   width: 100%;
+   height: 500px;
+   position: relative;
+}
+
+#liseret
+{
+   background-color: #A0A3AA;
+   background-size: cover;
+   width: 220px;
+   margin-right: 3px;
+   border-radius: 5px;
+   position: absolute;
+   top: 0px;
+   bottom: 0px;
+}
+
+#liseret img
+{
+   width: 120px;
+   height: 150px;
+   border: 1px solid white;
+   border-radius: 5px;
+}
+
+#liseret p
+{
+   text-align: center;
+}
+
+section
+{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   background-image: url('space.jpg');
+   border-radius: 5px;
+   position: relative;
+   margin-left: 230px;
+   min-height: 500px;
+}
+
+header
+{
+   text-align: center;
+}
+
+header h1
+{
+   font-family: 'distant_galaxyregular', Arial, sans-serif;
+   color: yellow;
+   font-size: 3em;
+}
+
+header p
+{
+   color : white;
+   font-size: 1.8em;
+}
+
+#articles
+{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   color: white;
+}
+
+#articles h3
+{
+   font-family: 'distant_galaxyregular', Arial, sans-serif;
+   font-size: 1.6em;
+   color: yellow;
+   text-align: center;
+}
+
+#articles ul
+{
+   list-style-type: none;
+}
+
+#experience
+{
+   flex:1;
+   margin-right: 5px;
+   overflow: auto;
+}
+
+#competence
+{
+   flex:1;
+   margin-right: 5px;
+   overflow: auto;
+}
+
+#formation
+{
+   flex:1;
+   margin-right: 5px;
+   overflow: auto;
+}

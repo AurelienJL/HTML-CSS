@@ -1,0 +1,145 @@
+body{
+	display:block;
+	background-color: #2548b4;
+}
+
+.panorama{
+	width :100%;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+nav{
+	display:flex;
+	justify-content:space-between;
+}
+	@media screen and (max-width: 650px) {
+		nav{
+			display:flex;
+			flex-direction:column;
+			position: absolute;
+			top: 40px; left: 40px;
+		}
+}
+
+a.bandeau {
+  	width:18%;
+		color:white;
+		text-align: center;
+		border: 1px solid white;
+		border-radius: 10px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		font-style: : Arial Black;
+		font-size: 1.2em;
+
+}
+
+section.corps{
+	display:flex;
+	justify-content: space-around;
+	background-color: #2548b4;
+
+}
+
+aside{
+	background-color: white;
+	width: 35%;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 5px 5px 5px 5px;
+}
+
+h2{
+	color: #2548b4;
+	text-align: center;
+}
+
+.presentation{
+	background-color: white;
+	width: auto;
+	margin: 5px 5px 5px 5px;
+}
+
+div.description{
+	display: flex;
+	clear: left;
+}
+
+p.description{
+ margin: 5px 5px 5px 5px;
+ color:#2548b4;
+ text-align: justify;
+ font-style: : Arial Black;
+ font-size: 1.2em;
+ clear: both;
+}
+
+.old_man{
+	witdh: 30%;
+	height: 30%;
+	float: left;
+}
+
+li{
+	color:#2548b4;
+	padding-top: 2px;
+}
+
+ul.liens{
+	list-style: none;
+}
+
+div.liens{
+	align-items: center;
+	background-color: white;
+	width: auto;
+	margin: 5px 5px 5px 5px;
+	border-top: 2px solid #2548b4;
+	border-radius: 10px;
+}
+
+section.article{
+	background-color: white;
+	width: 70%;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 5px 5px 5px 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+article{
+	background-color: #2548b4;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 5px 5px 5px 5px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+.gauche{
+	width : 20%;
+	float :left;
+	padding :10px 10px 10px 10px;
+}
+
+.droite{
+	width : 20%;
+	float : right;
+	padding :10px 10px 10px 10px;
+}
+
+p.article{
+	font-style: : Arial Black;
+	font-size: 1.2em;
+	text-align: justify;
+	padding: 5px 10px 5px 5px;
+}

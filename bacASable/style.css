@@ -1,0 +1,41 @@
+*{
+background-color : #463F32;
+}
+
+p{
+font-size : 24px;
+text-transform : uppercase;
+text-align : center;
+}
+
+.article{
+	border-color : pink;
+	border-style : double;
+	border-radius : 30px;
+	border-top-style : dotted;
+	border-width : 15px;
+	margin-left : 200px;
+	margin-right : 200px;
+}
+
+h1{
+color : blue;
+text-decoration : underline;
+font-size : 64px;
+text-align : center;
+}
+.Fin{
+font-size : 12px;
+text-align : center;
+}
+
+img{
+width : 100%;
+}
+
+div:hover{
+color : yellow;
+}
+div{
+margin-left : 100px;
+}
